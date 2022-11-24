@@ -3,6 +3,8 @@
   src="https://flybondi.com/assets/images/logo.svg" height="80" 
 />
 
+Deploy: https://flybondi-challenge-bice.vercel.app/
+
 # Code challenge
 
 Hola!
@@ -10,28 +12,28 @@ Soy Nelsona y tengo 65 años. La compu no me gusta mucho pero me dijeron que en 
 
 Quizás mi nieta Valentina que hizo un taller de computación me ayude. Ella tiene 16 años y es muy inteligente. Me puede decir cuál es el que más me conviene. Según la fecha que sea el pasaje, puede que mi hijo Víctor me acompañe, también Valentina y Adriana (mi nuera).
 
-----
+---
 
 _¿Cómo ayudarías a Nelsona a tener la **mejor experiencia** para diseñar sus vacaciones?_
 
 Vamos a estar evaluando todo, pero vamos hacer principal hincapié en lo siguiente:
 
-* :bulb: Creatividad.
-* :wrench: Herramientas utilizadas.
-* :man_technologist: Buenas prácticas de la tecnología aplicada.
+-   :bulb: Creatividad.
+-   :wrench: Herramientas utilizadas.
+-   :man_technologist: Buenas prácticas de la tecnología aplicada.
 
 El dataset con la información necesaria para realizar las búsquedas tiene el siguiente formato:
 
 ```js
 [
-  {
-    origin: String,
-    destination: String,
-    price: Float,
-    availability: Number,
-    date: String
-  }
-]
+    {
+        origin: String,
+        destination: String,
+        price: Float,
+        availability: Number,
+        date: String,
+    },
+];
 ```
 
 Podés (¡y te invitamos a que lo hagas!) hacer las preguntas que sean necesarias para evacuar todas tus dudas sobre el enunciado, escribiendo a producto@flybondi.com.
